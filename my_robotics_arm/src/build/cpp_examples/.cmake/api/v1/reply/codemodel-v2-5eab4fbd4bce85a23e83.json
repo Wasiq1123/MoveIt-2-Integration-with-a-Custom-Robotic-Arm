@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b8449c721294169c31b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_path::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_path-e3ddf51ca94e55104651.json",
+					"name" : "cartesian_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_examples_uninstall-283b87baf8ee69012203.json",
+					"name" : "cpp_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_joint_value::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_joint_value-a9ad8bc5f36e4d0d682c.json",
+					"name" : "gripper_joint_value",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_open::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_open-77b1058bce913015c07b.json",
+					"name" : "gripper_open",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_goal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_goal-d86cf700b8d7ccdedcb6.json",
+					"name" : "joint_goal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "named_goal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-named_goal-c1b24aa831b923db2f6e.json",
+					"name" : "named_goal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_goal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_goal-010f460c1492723c069c.json",
+					"name" : "pose_goal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7666a4f6d8ab2e1916ac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wasiq/testing_model/my_robotics_arm1/src/build/cpp_examples",
+		"source" : "/home/wasiq/testing_model/my_robotics_arm1/src/pool-thesis-2023-moveit2-examples/cpp_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

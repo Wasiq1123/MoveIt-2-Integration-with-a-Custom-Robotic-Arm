@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+
+<robot
+  name="fanuc">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="7.29115740005781E-09 -0.0313112388476564 0.0892235434771157"
+        rpy="0 0 0" />
+      <mass
+        value="20.0411614104906" />
+      <inertia
+        ixx="0.42417161816392"
+        ixy="2.23869151827351E-08"
+        ixz="5.83484257311203E-08"
+        iyy="0.339782693470562"
+        iyz="0.0409730702310681"
+        izz="0.498032861489296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="4.17597623147969E-10 -1.11008313652405E-10 0.137949188038165"
+        rpy="0 0 0" />
+      <mass
+        value="15.6265295919167" />
+      <inertia
+        ixx="0.387622184457634"
+        ixy="0.00450651853736857"
+        ixz="-1.77479088236805E-09"
+        iyy="0.403377151204745"
+        iyz="4.71785532078061E-10"
+        izz="0.105220188351989" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.281"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit effort="87" lower="-3.14" upper="2.9671" velocity="3.14" />
+    <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+  </joint>
+
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="-0.0221528282853783 0.157760362777503 -0.0162360845099088"
+        rpy="0 0 0" />
+      <mass
+        value="15.3514934064459" />
+      <inertia
+        ixx="0.689462489947758"
+        ixy="0.0696377295232753"
+        ixz="0.0208378873012554"
+        iyy="0.164866482484818"
+        iyz="0.0185115179763874"
+        izz="0.616612534733227" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0 0 0.33886"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="-0.2569 0 0.96644" />
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.3925" />
+    <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+  </joint>
+
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="-0.123263860256308 0.170565496584539 -0.0352297358849742"
+        rpy="0 0 0" />
+      <mass
+        value="12.2364395026057" />
+      <inertia
+        ixx="0.336044446189823"
+        ixy="-0.0212398660071068"
+        ixz="-0.0056033483122763"
+        iyy="0.0742263767045203"
+        iyz="0.000497693181436005"
+        izz="0.35843959883595" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="-0.014987 0.45032 -0.014331"
+      rpy="0 0 0" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0.2569 0 -0.96644" />
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.3925" />
+    <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+  </joint>
+
+  <link name="tool0" />
+
+  <joint name="joint3-tool0" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <parent link="link3" />
+    <child link="tool0" />
+    <axis xyz="0 0 0" />
+  </joint>
+
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="-1.87803040323509E-05 -3.55981776936076E-05 -4.83991724858912E-06"
+        rpy="0 0 0" />
+      <mass
+        value="1.17372308605399" />
+      <inertia
+        ixx="0.00532984510357432"
+        ixy="-0.0016590560274201"
+        ixz="-0.000361347622333166"
+        iyy="0.0030797265548225"
+        iyz="-0.000441019821212288"
+        izz="0.00659313707532887" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.588235294117647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/wasiq/testing_model/my_robotics_arm/src/panda_description/meshes/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+ 
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="-0.073912 0.46344 -0.019648"
+      rpy="0 0 0" />
+    <parent
+      link="tool0" />
+    <child
+      link="link4" />
+    <axis
+      xyz="0.2569 0 -0.96644" />
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.3925" />
+    <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+  </joint>
+
+</robot>

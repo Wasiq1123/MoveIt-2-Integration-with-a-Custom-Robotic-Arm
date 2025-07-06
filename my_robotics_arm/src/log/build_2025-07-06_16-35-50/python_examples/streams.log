@@ -1,0 +1,47 @@
+[2.111s] Invoking command in '/home/wasiq/testing_model/my_robotics_arm1/src/pool-thesis-2023-moveit2-examples/python_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_examples build --build-base /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build install --record /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/install.log --single-version-externally-managed install_data
+[2.435s] /home/wasiq/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.435s]   warnings.warn(msg)
+[2.755s] running egg_info
+[2.797s] creating ../../build/python_examples/python_examples.egg-info
+[2.798s] writing ../../build/python_examples/python_examples.egg-info/PKG-INFO
+[2.798s] writing dependency_links to ../../build/python_examples/python_examples.egg-info/dependency_links.txt
+[2.799s] writing entry points to ../../build/python_examples/python_examples.egg-info/entry_points.txt
+[2.799s] writing requirements to ../../build/python_examples/python_examples.egg-info/requires.txt
+[2.799s] writing top-level names to ../../build/python_examples/python_examples.egg-info/top_level.txt
+[2.799s] writing manifest file '../../build/python_examples/python_examples.egg-info/SOURCES.txt'
+[2.872s] reading manifest file '../../build/python_examples/python_examples.egg-info/SOURCES.txt'
+[2.873s] writing manifest file '../../build/python_examples/python_examples.egg-info/SOURCES.txt'
+[2.874s] running build
+[2.874s] running build_py
+[2.874s] creating /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples
+[2.874s] copying python_examples/named_goal.py -> /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples
+[2.875s] copying python_examples/joint_goal.py -> /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples
+[2.875s] copying python_examples/pose_goal.py -> /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples
+[2.875s] copying python_examples/__init__.py -> /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples
+[2.875s] running install
+[2.881s] running install_lib
+[2.920s] creating /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples
+[2.920s] copying /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples/named_goal.py -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples
+[2.920s] copying /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples/joint_goal.py -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples
+[2.920s] copying /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples/pose_goal.py -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples
+[2.920s] copying /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build/lib/python_examples/__init__.py -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples
+[2.921s] byte-compiling /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples/named_goal.py to named_goal.cpython-310.pyc
+[2.922s] byte-compiling /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples/joint_goal.py to joint_goal.cpython-310.pyc
+[2.923s] byte-compiling /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples/pose_goal.py to pose_goal.cpython-310.pyc
+[2.923s] byte-compiling /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples/__init__.py to __init__.cpython-310.pyc
+[2.924s] running install_data
+[2.924s] creating /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/ament_index/resource_index/packages
+[2.924s] copying resource/python_examples -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/ament_index/resource_index/packages
+[2.925s] copying package.xml -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/python_examples
+[2.925s] creating /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/python_examples/launch
+[2.925s] copying launch/python_examples.launch.py -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/python_examples/launch
+[2.925s] creating /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/python_examples/config
+[2.926s] copying config/motion_planning_python.yaml -> /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/share/python_examples/config
+[2.926s] running install_egg_info
+[2.969s] Copying ../../build/python_examples/python_examples.egg-info to /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages/python_examples-0.0.0-py3.10.egg-info
+[2.970s] running install_scripts
+[3.345s] Installing joint_goal script to /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python_examples
+[3.345s] Installing named_goal script to /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python_examples
+[3.345s] Installing pose_goal script to /home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python_examples
+[3.346s] writing list of installed files to '/home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/install.log'
+[3.383s] Invoked command in '/home/wasiq/testing_model/my_robotics_arm1/src/pool-thesis-2023-moveit2-examples/python_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wasiq/testing_model/my_robotics_arm1/src/install/python_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_examples build --build-base /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/build install --record /home/wasiq/testing_model/my_robotics_arm1/src/build/python_examples/install.log --single-version-externally-managed install_data

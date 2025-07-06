@@ -1,0 +1,4 @@
+[console_scripts]
+joint_goal = python_examples.joint_goal:main
+named_goal = python_examples.named_goal:main
+pose_goal = python_examples.pose_goal:main

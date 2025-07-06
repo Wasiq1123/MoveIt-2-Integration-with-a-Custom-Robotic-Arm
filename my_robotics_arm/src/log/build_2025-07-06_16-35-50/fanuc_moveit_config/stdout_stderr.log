@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_moveit_config
+-- Install configuration: ""
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/fanuc_moveit_config
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/fanuc_moveit_config
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/path.sh
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/path.dsv
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.bash
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.sh
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.zsh
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.dsv
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/package.dsv
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/ament_index/resource_index/packages/fanuc_moveit_config
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/cmake/fanuc_moveit_configConfig.cmake
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/cmake/fanuc_moveit_configConfig-version.cmake
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/package.xml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/launch
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/demo.launch.py
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/moveit_empty.rviz
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/moveit.rviz
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/kinematics.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/sensors_3d.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/fanuc.srdf
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/fanuc.urdf.xacro
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/initial_positions.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/fanuc.ros2_control.xacro
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/moveit.rviz
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/config/joint_limits.yaml
+-- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_moveit_config/share/fanuc_moveit_config/.setup_assistant

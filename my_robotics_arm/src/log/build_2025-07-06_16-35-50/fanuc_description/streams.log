@@ -1,0 +1,50 @@
+[0.032s] Invoking command in '/home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasiq/testing_model/my_team_with_poses/install/teleop_twist_keyboard:/home/wasiq/testing_model/my_team_with_poses/install/nav2_simple_commander:/home/wasiq/testing_model/my_team_with_poses/install/detection:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/wasiq/.local/bin/cmake /home/wasiq/testing_model/my_robotics_arm1/src/fanuc_description -DCMAKE_INSTALL_PREFIX=/home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.368s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.491s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.492s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.514s] -- Detecting CXX compiler ABI info
+[0.615s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.643s] -- Detecting CXX compile features
+[0.644s] -- Detecting CXX compile features - done
+[0.663s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.899s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.103s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.275s] -- Added test 'lint_cmake' to check CMake code style
+[1.280s] -- Added test 'xmllint' to check XML markup files
+[1.286s] -- Configuring done (1.2s)
+[1.292s] -- Generating done (0.0s)
+[1.296s] -- Build files have been written to: /home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description
+[1.310s] Invoked command in '/home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasiq/testing_model/my_team_with_poses/install/teleop_twist_keyboard:/home/wasiq/testing_model/my_team_with_poses/install/nav2_simple_commander:/home/wasiq/testing_model/my_team_with_poses/install/detection:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/wasiq/.local/bin/cmake /home/wasiq/testing_model/my_robotics_arm1/src/fanuc_description -DCMAKE_INSTALL_PREFIX=/home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description
+[1.314s] Invoking command in '/home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasiq/testing_model/my_team_with_poses/install/teleop_twist_keyboard:/home/wasiq/testing_model/my_team_with_poses/install/nav2_simple_commander:/home/wasiq/testing_model/my_team_with_poses/install/detection:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/wasiq/.local/bin/cmake --build /home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description -- -j8 -l8
+[1.380s] Invoked command in '/home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasiq/testing_model/my_team_with_poses/install/teleop_twist_keyboard:/home/wasiq/testing_model/my_team_with_poses/install/nav2_simple_commander:/home/wasiq/testing_model/my_team_with_poses/install/detection:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/wasiq/.local/bin/cmake --build /home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description -- -j8 -l8
+[1.435s] Invoking command in '/home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasiq/testing_model/my_team_with_poses/install/teleop_twist_keyboard:/home/wasiq/testing_model/my_team_with_poses/install/nav2_simple_commander:/home/wasiq/testing_model/my_team_with_poses/install/detection:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/wasiq/.local/bin/cmake --install /home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description
+[1.483s] -- Install configuration: ""
+[1.483s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/meshes
+[1.483s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/meshes/link3.STL
+[1.484s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/meshes/link4.STL
+[1.484s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/meshes/link2.STL
+[1.486s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/meshes/base_link.STL
+[1.487s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/meshes/link1.STL
+[1.488s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/urdf
+[1.488s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/urdf/robot.urdf
+[1.489s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/ament_index/resource_index/package_run_dependencies/fanuc_description
+[1.489s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/ament_index/resource_index/parent_prefix_path/fanuc_description
+[1.490s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/environment/ament_prefix_path.sh
+[1.490s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/environment/ament_prefix_path.dsv
+[1.490s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/environment/path.sh
+[1.490s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/environment/path.dsv
+[1.491s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/local_setup.bash
+[1.491s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/local_setup.sh
+[1.491s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/local_setup.zsh
+[1.491s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/local_setup.dsv
+[1.492s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/package.dsv
+[1.492s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/ament_index/resource_index/packages/fanuc_description
+[1.492s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/cmake/fanuc_descriptionConfig.cmake
+[1.492s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/cmake/fanuc_descriptionConfig-version.cmake
+[1.493s] -- Installing: /home/wasiq/testing_model/my_robotics_arm1/src/install/fanuc_description/share/fanuc_description/package.xml
+[1.500s] Invoked command in '/home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasiq/testing_model/my_team_with_poses/install/teleop_twist_keyboard:/home/wasiq/testing_model/my_team_with_poses/install/nav2_simple_commander:/home/wasiq/testing_model/my_team_with_poses/install/detection:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/wasiq/.local/bin/cmake --install /home/wasiq/testing_model/my_robotics_arm1/src/build/fanuc_description
